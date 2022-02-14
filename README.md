@@ -4,7 +4,7 @@
 
 In December 2021, I successfully made Ubuntu 20.04 installed on `MacBook Pro 16,2`. Unfortunately several issues were observed, such as `bluetooth`, `wifi-firmware`, `nautilus` and `nemo` file managers very poor performance or intermittently crashed. I even tried Manjaro with no luck (installed but failed to boot). Then I decided to try Fedora. After running for a week, Fedora on `MacBook Pro 16,2` is really robust, stable, flexible, with bringing confidence and freedom. Happy.
 
-![20220211_fedora_mbp](/assets/20220211_fedora_mbp.png)
+![20220211_fedora_mbp](./img/20220211_fedora_mbp.png)
 
 ## Hardware Spec
 
