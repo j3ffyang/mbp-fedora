@@ -97,3 +97,15 @@ firmware:       brcm/brcmfmac43752-sdio.clm_blob
 ```sh
 sudo update_kernel_mbp
 ```
+
+## Disable `HandleLidSwitch=ignore`
+
+In my case, display has difficulty to come back after laptop lid gets closed when `suspend` function. I believe the `suspend` function doesn't work yet. Therefore, need to disable `HandleLidSwitch`
+
+Edit `/etc/systemd/logind.conf`
+
+```sh
+HandleLidSwitch=ignore
+```
+
+Then re-login
